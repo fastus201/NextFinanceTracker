@@ -10,7 +10,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-slate-900 text-slate-100 px-6 py-4 shadow-md border-b border-slate-600">
+    <nav className="bg-slate-900 text-slate-100 px-6 py-4 shadow-slate-gradient-bottom">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* LOGO */}
         <div className="flex items-center space-x-2">
