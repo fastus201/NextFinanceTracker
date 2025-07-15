@@ -2,7 +2,6 @@ import "@/styles/globals.css";
 import Navbar from "@/components/Nav/Navbar";
 import Footer from "@/components/Footer";
 
-
 //The structure that each page on the website follows
 export default function RootLayout({ children }) {
   return (
